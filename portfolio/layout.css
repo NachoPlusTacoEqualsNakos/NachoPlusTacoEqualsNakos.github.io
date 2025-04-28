@@ -1,0 +1,132 @@
+body {
+    background-image: url(../images/IMG_7550.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+h1 {
+    color: white;
+    text-transform: uppercase;
+    font-family: "Germania One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    text-shadow: 1px 0px 10px red;
+}
+
+header {
+    margin-bottom: 1.5rem;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    opacity: 0.75;
+    background-color: black;
+    padding: 25px;
+    margin: 0;
+    margin-top: 1rem;
+    border: 1px solid red;
+    grid-row-start: -1;
+    grid-row-end: -3;
+    grid-column-start: -1;
+    grid-column-end: -4;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    opacity: 0.75;
+    background-color: black;
+    padding: 25px;
+    margin: 0;
+    border: 1px solid red;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 15px;
+    padding: 15px;
+    gap: 2rem;
+    position: relative;
+    display: flex;
+    margin-top: 15px;
+}
+
+nav li {
+    list-style-type: none;
+    color: white;
+    font-weight: bold;
+    margin: 1rem;
+    text-transform: uppercase;
+    font-family: "Germania One", system-ui;
+}
+
+/* Link styling */
+
+a:link {
+    color: #d609f3; 
+}
+a:visited {
+    color: white;
+}
+a:hover {
+    color: red;
+}
+a:active {
+    color: orange;  
+}
+
+main {
+    border: 1px solid red;
+    background-color: black;
+    opacity: 0.6;
+    margin-bottom: 1.5rem;
+}
+
+p {
+    color: white;
+    font-family: "Germania One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 1px 0px 10px purple;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+div.zigzag {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 2fr 2fr 2fr 2fr;
+}
+
+.img1 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 3; 
+}
+
+.img2 {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.img3 {
+    grid-row-start: 3;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.img4 {
+    grid-row-start: 4;
+    grid-row-end: 4;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
