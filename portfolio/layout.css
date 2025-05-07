@@ -1,8 +1,5 @@
 body {
-    background-image: url(../images/IMG_7550.jpeg);
-    background-size: contain;
-    background-repeat: no-repeat;
-
+    background-color: black;
 }
 
 h1 {
@@ -13,6 +10,14 @@ h1 {
     font-style: normal;
     text-align: center;
     text-shadow: 1px 0px 10px red;
+}
+
+h2 {
+    color: red;
+    text-shadow: 1px 0px 10px;
+    margin: 1.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
 }
 
 header {
@@ -68,16 +73,16 @@ nav li {
 /* Link styling */
 
 a:link {
-    color: #d609f3; 
+    color: red; 
 }
 a:visited {
-    color: white;
+    color: #d609f3;
 }
 a:hover {
     color: red;
 }
 a:active {
-    color: orange;  
+    color: white;  
 }
 
 main {
@@ -97,6 +102,10 @@ p {
     margin-right: 0.5rem;
 }
 
+p.article {
+    color: red;
+}
+
 div.zigzag {
     display: grid;
     grid-template-columns: 2fr 2fr 2fr;
@@ -110,11 +119,25 @@ div.zigzag {
     grid-column-end: 3; 
 }
 
+.section1 {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;  
+}
+
 .img2 {
     grid-row-start: 2;
     grid-row-end: 3;
     grid-column-start: 3;
     grid-column-end: 4;
+}
+
+.section1 {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;  
 }
 
 .img3 {
@@ -129,4 +152,15 @@ div.zigzag {
     grid-row-end: 4;
     grid-column-start: 3;
     grid-column-end: 4;
+}
+
+/* Article styling */
+
+article {
+    background-color: #220b72 ;
+    border: 1px solid gold;
+    padding: 1.3rem;
+    margin: .5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 0.8rem;
 }
